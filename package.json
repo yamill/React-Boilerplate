@@ -1,0 +1,20 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "quick react starter",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "watchify public/main.js -t [ babelify --presets [ react ] ] -o public/bundle.js"
+  },
+  "author": "Yamill Vallecillo <yamill@gmail.com> (http://github.com/yamill)",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "express": "^4.13.4",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  }
+}
