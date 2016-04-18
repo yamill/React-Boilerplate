@@ -1,13 +1,19 @@
 <h1>Getting started</h1>
 
-You need to install (you only do this once, for the lifetime of your computer):
+Install browserify and watchify globally:
 
 ```
-npm install browserify watchify -g
+sudo npm install browserify watchify -g
 ```
 
-You can run the following to listen to changes in your app:
+Run the following to listen to changes in your app:
 
 ```
 npm run-script build
+```
+
+Run the following to start your server:
+
+```
+sudo npm start
 ```
