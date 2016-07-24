@@ -3,17 +3,23 @@
 Install browserify and watchify globally:
 
 ```
-sudo npm install browserify watchify -g
+npm install browserify watchify -g
+```
+
+Install all npm modules
+
+```
+npm install
 ```
 
 Run the following to listen to changes in your app:
 
 ```
-npm run-script build
+npm run build
 ```
 
 Run the following to start your server:
 
 ```
-sudo npm start
+npm run start
 ```
